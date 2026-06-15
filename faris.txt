@@ -1,0 +1,19 @@
+Step 1: Start the program.
+
+Step 2: Create an empty dictionary to store student attendance records.
+
+Step 3: Ask the user to enter the number of students.
+
+Step 4: Use a loop to get each student's name.
+
+Step 5: For each student, ask whether the student is Present (P) or Absent (A).
+
+Step 6: Store the attendance status in the dictionary.
+
+Step 7: After recording attendance, display the attendance report.
+
+Step 8: Count and display the total number of present students.
+
+Step 9: Count and display the total number of absent students.
+
+Step 10: End the program.

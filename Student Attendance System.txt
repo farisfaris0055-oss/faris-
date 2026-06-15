@@ -1,0 +1,22 @@
+# Student Attendance System
+
+attendance = {}
+
+n = int(input("Enter the number of students: "))
+working_days = int(input("Enter total number of working days: "))
+
+for i in range(n):
+    name = input(f"\nEnter name of student {i+1}: ")
+    present_days = int(input(f"Enter number of days {name} was present: "))
+
+    attendance[name] = present_days
+
+print("\n--- Attendance Report ---")
+
+for name, present_days in attendance.items():
+    percentage = (present_days / working_days) * 100
+
+    print(f"\nStudent Name : {name}")
+    print(f"Present Days : {present_days}")
+    print(f"Working Days : {working_days}")
+    print(f"Attendance % : {percentage:.2f}%")

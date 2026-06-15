@@ -1,0 +1,19 @@
+# Student Attendance System
+
+attendance = {}
+
+n = int(input("Enter the number of students: "))
+
+for i in range(n):
+    name = input(f"Enter name of student {i+1}: ")
+    status = input("Enter attendance (P for Present / A for Absent): ")
+
+    attendance[name] = status.upper()
+
+print("\n--- Attendance Report ---")
+
+for name, status in attendance.items():
+    if status == "P":
+        print(name, "- Present")
+    else:
+        print(name, "- Absent")
